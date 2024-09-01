@@ -55,6 +55,10 @@ if __name__ == "__main__":
         totalTax += incomeTax
         totalNetPay += netPay
      
-printtotals(totalEmployees, totalHours, totalGrossPay, totalTax, totalNetPay)
+        empTotals("totEmp") = totalEmployees
+        empTotals("totHours") = totalHours
+        empTotals("totGross") = totalGrossPay
+        empTotals("totTax") = totalTax
+        empTotals("totNet") = totalNetPay
     
     
